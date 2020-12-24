@@ -8,8 +8,8 @@ nav {
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:29px;
-    background-color:rgba(31, 230, 236, 0.6);
+    padding:20px;
+    background-color:rgb(3, 202, 202);    
     font-family: 'Space Grotesk', sans-serif;
     min-height: 9vh;
 }
