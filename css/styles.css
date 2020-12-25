@@ -84,7 +84,7 @@ nav {
 
 @media (max-width: 720px){
     body{
-        overflow: hidden;
+        overflow-x: hidden;
     }
 
     .nav-links{
@@ -94,7 +94,7 @@ nav {
 
 @media (max-width: 720px ){
     body{
-        overflow: hidden;
+        overflow-x: hidden;
     }
     .logo{
         margin-left: 50%;
