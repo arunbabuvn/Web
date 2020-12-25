@@ -83,6 +83,10 @@ nav {
 }
 
 @media (max-width: 720px){
+    body{
+        overflow: hidden;
+    }
+
     .nav-links{
         width:50%;
     }
