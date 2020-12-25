@@ -82,13 +82,13 @@ nav {
     cursor: pointer;
 }
 
-@media screen and (max-width: 720px){
+@media (min-width: 320px){
     .nav-links{
         width:50%;
     }
 }
 
-@media screen and (max-width: 720px ){
+@media (min-width: 320px ){
     body{
         overflow: hidden;
     }
