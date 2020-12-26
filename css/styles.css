@@ -82,27 +82,19 @@ nav {
     cursor: pointer;
 }
 
-@media (max-width: 720px){
+@media screen and (max-width: 720px ){
     body{
-        overflow-x: hidden;
-    }
-
-    .nav-links{
-        width:50%;
-    }
-}
-
-@media (max-width: 720px ){
-    body{
-        overflow-x: hidden;
+        overflow: hidden;
     }
     .logo{
         margin-left: 50%;
+        font-size: 28px;
     }
     .nav-links{
+        width:100%;
         position:absolute;
         right: 0px;
-        height: 99vh;
+        height: 100%;
         top: 9vh;
         background-color:rgba(31, 230, 236, 0.6);
         display: flex;
@@ -124,7 +116,7 @@ nav {
     @keyframes navLinkFade{
         from{
             opacity: 0;
-            transform: translateX(50px);
+            transform: translateX(20px);
         }
         to{
             opacity: 1;
